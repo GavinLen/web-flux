@@ -6,7 +6,7 @@
 
     <groupId>xyz.ieden</groupId>
     <artifactId>web-flux</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>web-flux</name>
@@ -27,6 +27,7 @@
     <modules>
         <module>web-flux-mvc</module>
         <module>web-flux-hello</module>
+        <module>web-flux-function</module>
     </modules>
 
     <dependencies>
@@ -35,7 +36,7 @@
             <artifactId>fastjson</artifactId>
             <version>${fastjson.version}</version>
         </dependency>
-        
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
